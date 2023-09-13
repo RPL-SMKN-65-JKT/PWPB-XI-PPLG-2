@@ -1,0 +1,137 @@
+<html> 
+ <head> 
+  <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <h2>Data Kesukaan Teman</h2> 
+  <table border="1"> 
+   <tbody> 
+    <tr> 
+     <th>No</th> 
+     <th>Nama</th> 
+     <th>kelas</th> 
+     <th>Film</th> 
+     <th>musik</th> 
+    </tr> 
+    <tr> 
+     <td>1</td> 
+     <td>Nurasiah</td> 
+     <td>XI PPLG 2</td> 
+     <td>One piece</td> 
+     <td>Blank space</td> 
+    </tr> 
+    <tr> 
+     <td>2</td> 
+     <td>Riyani</td> 
+     <td>XI PPLG 1</td> 
+     <td>One piece</td> 
+     <td>Pupus</td> 
+    </tr> 
+    <tr> 
+     <td>3</td> 
+     <td>Maulidia</td> 
+     <td>XI PPLG 2</td> 
+     <td>Film Horor</td> 
+     <td>Risalah hati</td> 
+    </tr> 
+    <tr> 
+     <td>4</td> 
+     <td>Nisa</td> 
+     <td>XI PPLG 2</td> 
+     <td>Upin Ipin</td> 
+     <td>Monokrom</td> 
+    </tr> 
+    <tr> 
+     <td>5</td> 
+     <td>putri</td> 
+     <td>XI PPLG 1</td> 
+     <td>Boruto</td> 
+     <td>Celengan rindu</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <br> 
+  <h2>Data Mapel</h2>
+  <table border="1"> 
+   <tbody> 
+    <tr> 
+     <th>No</th> 
+     <th>Mata pelajaran</th> 
+     <th>Nama Guru</th> 
+    </tr> 
+    <tr> 
+     <td>1</td> 
+     <td>PKK</td> 
+     <td>Pak Slamet sukotjo</td> 
+    </tr> 
+    <tr> 
+     <td>2</td> 
+     <td>PBO</td> 
+     <td>Bu Villia</td> 
+    </tr> 
+    <tr> 
+     <td>3</td> 
+     <td>Bahasa Inggris</td> 
+     <td>Miss Mutia</td> 
+    </tr> 
+    <tr> 
+     <td>4</td> 
+     <td>Bahasa Indonesia</td> 
+     <td>Bu Heni</td> 
+    </tr> 
+    <tr> 
+     <td>5</td> 
+     <td>PWPB</td> 
+     <td>Bu Hasna</td> 
+    </tr> 
+    <tr> 
+     <td>6</td> 
+     <td>MAPIL</td> 
+     <td>Bu Ririn</td> 
+    </tr> 
+    <tr> 
+     <td>7</td> 
+     <td>Matematika</td> 
+     <td>Bu Syifa</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <br> 
+  <h2>Data diri saya</h2> 
+  <table border="1"> 
+   <tbody> 
+    <tr> 
+     <th>Nama</th> 
+     <th>Alamat</th> 
+     <th>tempat tanggal lahir</th> 
+     <th>Umur</th> 
+     <th>No Telepon</th> 
+     <th>Jenis kelamin</th> 
+    </tr> 
+    <tr> 
+     <td>Nurasiah</td> 
+     <td>Jl.pancawarga V gg 12 </td> 
+     <td>Jakarta, 26 Juli 2006</td> 
+     <td>17</td> 
+     <td>085691762278</td> 
+     <td>Perempuan</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body>
+</html>
