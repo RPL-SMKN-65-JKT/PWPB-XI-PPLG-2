@@ -1,0 +1,78 @@
+<!doctype html>
+<html> 
+ <head> 
+  <style>
+  /* Gaya CSS untuk latar belakang ungu muda */
+  body {
+    background-color: lavender;
+  }
+  /* Gaya CSS untuk tabel */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+  }
+  /* Gaya CSS untuk sel header */
+  th {
+    background-color: #663399; /* Warna ungu muda */
+    color: white;
+  }
+  /* Gaya CSS untuk sel data */
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+</style> 
+ </head> 
+ <body> 
+  <h2>DATA PKL</h2> 
+  <table border="5&quot;"> 
+   <tbody>
+    <tr> 
+     <th>Nama</th> 
+     <th>Jenis Kelamin</th> 
+     <th>Hobby</th> 
+     <th>Keterangan PKL</th> 
+    </tr> 
+    <tr> 
+     <td>Abas</td> 
+     <td>Laki-laki</td> 
+     <td>Olahraga</td> 
+     <td>LULUS PKL</td> 
+    </tr> 
+    <tr> 
+     <td>Maulidia</td> 
+     <td>Perempuan</td> 
+     <td>Membaca</td> 
+     <td>LULUS PKL</td> 
+    </tr> 
+    <tr> 
+     <td>Syarif</td> 
+     <td>Laki-laki</td> 
+     <td>Seni</td> 
+     <td>MENGULANG </td> 
+    </tr> 
+    <tr> 
+     <td>Nur Asiah</td> 
+     <td>Perempuan</td> 
+     <td>Mengambar</td> 
+     <td>LULUS PKL</td> 
+    </tr> 
+    <tr> 
+     <td>David</td> 
+     <td>Laki-laki</td> 
+     <td>Musik</td> 
+     <td>LULUS PKL</td> 
+    </tr> 
+    <tr> 
+     <td>Lola</td> 
+     <td>Perempuan</td> 
+     <td>Memasak</td> 
+     <td>MENGULANG</td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <br> KETERANGAN : TABEL INI TERDIRI DARI 4 KOLAM DAN 7 BARIS 
+ </body>
+</html>
