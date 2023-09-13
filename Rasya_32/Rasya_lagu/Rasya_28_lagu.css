@@ -1,0 +1,45 @@
+
+
+body {
+    background-image: url("cover2.jpg");
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.container {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(72,102,205,1) 99%);
+    border-radius: 20px ;
+    border: solid 2px;
+}
+.judul {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: beige;
+    padding: 10px;
+}
+
+.gambar {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.song {
+    padding: 10px;
+    width: ;
+}
+.lirik {
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
