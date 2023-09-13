@@ -1,0 +1,64 @@
+.img-div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.audio-class {
+    border-radius: 10px;
+    max-width: 4000px;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: burlywood;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: beige;
+}
+
+.img-2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-class2 {
+    border-radius: 10px;
+    max-width: 4000px;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: burlywood;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-3 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-class3 {
+    border-radius: 10px;
+    max-width: 4000px;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: burlywood;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
