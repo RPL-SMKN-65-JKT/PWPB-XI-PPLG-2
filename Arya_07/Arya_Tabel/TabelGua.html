@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabelCees</title>
+</head>
+<body><center>
+<!-- Tabel Pertama -->
+<table border="2" bgcolor="pink">
+    <!-- bgcolor pink untuk mewarnai seluruh tabel dengan warna pink -->
+    <!-- memakai colspan 3 karena butuh 3 sel kesamping -->
+    <tr>
+        <th colspan="3" bgcolor="yellow">Profile Biodata</th>
+        <!-- bgcolor yellow untuk mewarnai tabel colspan profile biodata -->
+    </tr>
+    <!-- memakai rowspan 8 karena butuh 8 sel kebawah -->
+    <tr>
+        <td rowspan="8">
+            <img src="Arya06.png" width="200" height="300" />
+        </td>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td>Arya Panca Putra</td>
+    </tr>
+    <tr>
+        <td>Tempat/tanggal lahir</td>
+        <td>Jakarta, 09 Juli 2006</td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>Laki laki</td>
+    </tr>
+    <tr>
+        <td>Agama</td>
+        <td>Islam</td>
+    </tr>
+    <tr>
+        <td>Kewarganegaraan</td>
+        <td>Indonesia</td>
+    </tr>
+    <tr>
+        <td>Berat Badan/Tinggi Badan</td>
+        <td>55kg/170cm</td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td>Rusunawa Cipinang Besar Selatan Blok D </td>
+    </tr>
+    
+</table>
+
+<br>
+<!-- Tabel 2 -->
+<!-- Border 10 untuk mempertebal tabel  -->
+<table border="10" bgcolor="yellow" >
+    <tr bgcolor="aqua">
+        <th colspan="2">Form Data Siswa</th>
+    </tr>
+    <tr>
+        <td><label for="username">username :</label></td>
+        <td><input type="teks" id="username"></td>
+    </tr>
+    <tr>
+        <td><label for="password">password :</label></td>
+        <td><input type="password" id="password"></td>
+    </tr>
+    <tr>
+        <td>Kelamin :</td>
+        <td colspan="2">
+            <input type="radio" id="Pria" name="jeniskelamin"><label for="Pria">Pria</label>
+            <input type="radio" id="Wanita" name="jeniskelamin"><label for="Wanita">Wanita</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Agama :</td>
+        <td colspan="2">
+            <input type="checkbox" id="Islam"><label for="Islam">Islam</label>
+            <input type="checkbox" id="Hindu"><label for="Hindu">Hindu</label>
+            <input type="checkbox" id="Budha"><label for="Budha">Budha</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="Combo Box">Jurusan : </label></td>
+        <td><select>
+            <option value="RPL">RPL</option>
+            <option value="MM">MM</option>
+            <option value="PFTV">PFTV</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="textarea">Tentang diri :</label></td>
+        <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="submit">Kirim Disini!!</button></td>
+    </tr>
+</table>
+
+<br>
+<!-- Tabel 3 -->
+<table border="8" bgcolor="aqua">
+    <tr bgcolor="green">
+        <th colspan="7">Makanan Favorit XI Kelas PPLG 2</th>
+    </tr>
+    <tr>
+        <th rowspan="2">No</th>
+        <th rowspan="2">Nama</th>
+        <th colspan="3">Makanan Favorit</th>
+    </tr>
+    <tr>
+        <th>Makanan 1</th>
+        <th>Makanan 2</th>
+        <th>Makanan 3</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Arya</td>
+        <td>Naspad</td>
+        <td>Nasgor</td>
+        <td>Nasning</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Umar</td>
+        <td>Sate</td>
+        <td>Babi</td>
+        <td>Kera</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rasya</td>
+        <td>Sushi</td>
+        <td>Tempe Oreg</td>
+        <td>Karedok</td>
+    </tr>
+
+</table>
+
+</center></body>
+</html>
