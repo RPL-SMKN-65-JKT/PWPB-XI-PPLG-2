@@ -1,0 +1,69 @@
+<!doctype html>
+<html> 
+ <head> 
+  <style>
+        /* Gaya untuk latar belakang ungu muda */
+        body {
+            background-color: #e6e6fa; /* Warna ungu muda */
+        }
+        
+        /* Gaya untuk tabel */
+        table {
+            width: 80%; /* Lebar tabel */
+            border-collapse: collapse; /* Untuk menggabungkan batas sel */
+            margin: 20px auto; /* Untuk tengah tengah tabel di halaman */
+            background-color: white; /* Latar belakang tabel putih */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan tabel */
+        }
+        
+        /* Gaya untuk header tabel */
+        th, td {
+            padding: 12px 15px; /* Jarak antara isi sel dan batas sel */
+            text-align: left; /* Teks selalu rata kiri */
+        }
+        
+        th {
+            background-color: #9370db; /* Warna ungu tua untuk header */
+            color: white; /* Warna teks putih untuk header */
+        }
+        
+        /* Gaya untuk baris ganjil */
+        tr:nth-child(odd) {
+            background-color: #f2f2f2; /* Warna abu-abu untuk baris ganjil */
+        }
+        
+        /* Gaya saat cursor diarahkan ke baris */
+        tr:hover {
+            background-color: #dcdcdc; /* Warna abu-abu muda saat hover */
+        }
+    </style> 
+ </head> 
+ <body> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th>Nama</th> 
+     <th>Tahun kelahiran</th> 
+     <th>Kota</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td>Arya</td> 
+     <td>2006</td> 
+     <td>Magelang, Jawa Tengah</td> 
+    </tr> 
+    <tr> 
+     <td>Maulidia</td> 
+     <td>2007</td> 
+     <td>DKI Jakarta</td> 
+    </tr> 
+    <tr> 
+     <td>Nur Asiah</td> 
+     <td>2006</td> 
+     <td>DKI JAKARTA</td> 
+    </tr> 
+   </tbody> 
+  </table> KETERANGAN : TABLE INI TERDIRI DARI 3 KOLAM DAN 4 BARIS 
+ </body>
+</html>
