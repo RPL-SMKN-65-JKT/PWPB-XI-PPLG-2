@@ -1,0 +1,67 @@
+<!doctype html>
+<html> 
+ <head> 
+  <style>
+        table {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #f0e6ff; /* Warna latar belakang ungu muda */
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #8a2be2; /* Warna latar belakang ungu tua untuk header */
+            color: #fff; /* Warna teks putih untuk header */
+        }
+    </style> 
+ </head> 
+ <body> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <th>NIS</th> 
+     <th>Nama</th> 
+     <th>Nilai</th> 
+     <th>Status</th> 
+    </tr> 
+    <tr> 
+     <td>001</td> 
+     <td>Abas</td> 
+     <td>85</td> 
+     <td>Tuntas</td> 
+    </tr> 
+    <tr> 
+     <td>002</td> 
+     <td>Maulidia</td> 
+     <td>92</td> 
+     <td>Tuntas</td> 
+    </tr> 
+    <tr> 
+     <td>003</td> 
+     <td>Nur Asiah</td> 
+     <td>80</td> 
+     <td>Tuntas</td> 
+    </tr> 
+    <tr> 
+     <td>004</td> 
+     <td>Kajes</td> 
+     <td>75</td> 
+     <td>Tuntas</td> 
+    </tr> 
+    <tr> 
+     <td>005</td> 
+     <td>Sisi</td> 
+     <td>73</td> 
+     <td>Belum Tuntas</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <br> KETERANGAN : TABEL INI TERDIRI DARI 4 KOLAM DAN 6 BARIS 
+ </body>
+</html>
