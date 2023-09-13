@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Keluarga Saya</title> 
+  <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .photo {
+            display: inline-block;
+            margin: 20px;
+        }
+        .caption {
+            font-weight: bold;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <h1>Album Foto Keluarga</h1> 
+  <div class="photo"> 
+   <img src="IMG-20230905-WA0000.jpg" alt="Foto Ibu" width="200"> 
+   <p class="caption">Ibu: Arsh</p> 
+  </div> 
+  <div class="photo"> 
+   <img src="IMG-20230905-WA0000.jpg" alt="Foto Saudara Perempuan" width="200"> 
+   <p class="caption">Saudara Perempuan: Maya Ratnasari</p> 
+  </div> 
+  <div class="photo"> 
+   <img src="IMG-20230905-WA0005.jpg" alt="Foto Saudara Laki-laki" width="200"> 
+   <p class="caption">Saudara Laki-laki: Muhammad Syamsi </p> 
+  </div> 
+  <h2>Lagu Keluarga</h2> 
+  <audio controls> 
+   <source src="m" type="audio"> Your browser does not support the audio element. 
+  </audio> 
+ </body>
+</html>
