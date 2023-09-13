@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.lagungantuk{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+} 
+
+:root {
+    --bgColor:rgb(255,252,241);
+}
+
+body { 
+    overflow: hidden;
+    background-color: var(--bgColor);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+#slider {
+    position: relative;
+    width: 50%;
+    height: 32vw;
+    margin: 80px auto;
+    transform-style: preserve-3d;
+    font-family: "Helvetica Neue", sans-serif;
+    perspective: 140px; 
+}
+
+input[type="radio"] {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    transform: translateX(-83px);
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+input[type="radio"]:nth-child(5){
+    margin-right: 0px;
+}
+
+input[type="radio"]:checked {
+    opacity: 1;
+}
+
+#slider label,
+#slider label img {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 400ms ease;
+
+}
+
+/*Active Slide*/
+#s1:checked ~ #slide1,
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3,
+#s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+    transform: translate3d(0%, 0, 0px);
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 
+    6px rgba(0, 0, 0, 0.2);
+}
+
+/*Next Slide*/
+#s1:checked ~ #slide2,
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide4,
+#s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+    transform: translate3d(20%, 0, -100px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px  
+    rgba(0, 0, 0, 0.2);
+}
+
+/*Previous Slide*/
+#s1:checked ~ #slide5,
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2,
+#s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+    transform: translate3d(-20%, 0, -100px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px  
+    rgba(0, 0, 0, 0.2);
+}
+
+/*Next to Next Slide*/
+#s1:checked ~ #slide3,
+#s2:checked ~ #slide4,
+#s3:checked ~ #slide5,
+#s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+    transform: translate3d(40%, 0, -250px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/*Provious to Previous Slide*/
+#s1:checked ~ #slide4,
+#s2:checked ~ #slide5,
+#s3:checked ~ #slide1,
+#s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+    transform: translate3d(-40%, 0, -250px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
