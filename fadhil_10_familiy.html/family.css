@@ -1,0 +1,39 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foto {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.keluargaAwal {
+    background-image: url('keluargaAwal.jpeg');
+}
+.ayahIbu {
+    background-image: url('ayahIbu.jpeg');
+}
+.patan {
+    background-image: url('patan.jpeg');
+}
+.fadhil {
+    background-image: url('fadhil.jpeg');
+}
+.keluargaAkhir {
+    background-image: url('keluargaAkhir.jpeg');
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    font-size: 4em;
+    letter-spacing: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
