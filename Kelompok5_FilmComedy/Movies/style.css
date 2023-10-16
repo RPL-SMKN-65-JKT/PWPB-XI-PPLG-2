@@ -1,0 +1,376 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #659DBD;
+}
+
+h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 150px;
+    color: rgb(200, 159, 55);
+    background-color: beige;
+    font-size: 30px;
+    height: 200px;
+}
+
+
+
+.film-1 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+.film-2 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+}
+
+.article-2 {
+    width: 450px;
+    height: 410px;
+    background-color: beige;
+    margin: 70px;
+    padding: 49px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+}
+
+.film-3 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+}
+
+.article-3 {
+    width: 450px;
+    height: 410px;
+    background-color: beige;
+    margin: 55px;
+    padding: 20px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+}
+
+.film-4 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+}
+
+.article-4 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 65px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 16px;
+}
+
+
+.film-5 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+}
+
+.article-5 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.film-6 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+}
+
+.article-6 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 55px;
+    padding: 50px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.film-7 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    background: wheat;
+
+}
+
+.article-7 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 60px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+.film-8 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-8 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+.film-9 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-9 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+
+
+.film-10 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-10 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 60px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+
+.film-11 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-11 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 75px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+
+
+.film-12 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-12 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+
+
+
+.film-13 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-13 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 60px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+
+.film-14 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-14 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
+
+
+.film-15 {
+    border: 30px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: wheat;
+
+}
+
+.article-15 {
+    width: 450px;
+    height: 400px;
+    background-color: beige;
+    margin: 70px;
+    padding: 80px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    font-size: 17px;
+}
