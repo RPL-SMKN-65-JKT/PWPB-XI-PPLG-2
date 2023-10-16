@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Film Favorit</h1>
+    </header>
+
+    <main>
+      <section class="film-info">
+        <img src="film-poster.jpg" alt="Poster Film" />
+        <h2>Judul Film</h2>
+        <p>Tanggal Rilis: 27 Mei 2022</p>
+        <p>Genre: Aksi, Petualangan</p>
+        <p>
+          Deskripsi: Film Top Gun: Maverick adalah sebuah film aksi yang
+          menceritakan tentang kisah seorang pilot pesawat tempur yang bernama
+          Pete ‘Maverick’ Mitchell (Tom Cruise). Pete atau yang lebih dikenal
+          dengan nama Maverick adalah seorang kapten pilot pesawat tempur yang
+          sudah bekerja selama lebih dari 30 tahun. Maverick kemudian mendapat
+          tugas untuk menjadi pelatih atau instruktur untuk 16 calon pilot Top
+          Gun. Top Gun adalah sebutan untuk sebuah tim yang nantinya ditugaskan
+          untuk menyisir pabrik uranium berbahaya milik negara lain..
+        </p>
+      </section>
+
+      <section class="film-trailer">
+        <h2>Trailer</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
