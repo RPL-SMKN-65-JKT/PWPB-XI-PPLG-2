@@ -1,0 +1,14 @@
+.tableMapel {
+    color: cyan;
+    background-color: black;
+    border-color: blueviolet;
+    width: 40%;
+    font-family: monospace;
+    font-size: 18px;
+}
+.tableBiodata {
+    color: orangered;
+    background-color: black;
+    border-color: lime;
+    width: 60%;
+}
