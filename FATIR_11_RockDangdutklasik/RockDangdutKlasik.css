@@ -1,11 +1,10 @@
 
 body {
   background-image: linear-gradient(to right, #ff865e 0%, #1db9c3 100%);
- float: left;
     margin: 2px;
 	
 }
-  }
+  
 <style>
     .container {
     }
