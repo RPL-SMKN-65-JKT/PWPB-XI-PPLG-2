@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Daftar Lagu</title> 
+  <style>
+        body {
+            background-color: #ffc0cb; /* Pink Muda */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fff;
+            background-color: #ff69b4; /* Pink Tua */
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .song {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .song h2 {
+            color: #ff69b4; /* Pink Tua */
+        }
+
+        .song p {
+            color: #333;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1>Daftar Lagu Favorit</h1> 
+   <div class="song"> 
+    <h2>Denting</h2> 
+    <p>Artis: Melly Goeslaw</p> 
+    <div class="video-container"> <iframe width="560" height="315" src="https://youtu.be/4CQDeiUQG_Q?si=DtMAQmeWmr5HZLGR/embed/LAGU_ID_1" frameborder="0" allowfullscreen></iframe> 
+    </div> 
+   </div> 
+   <div class="song"> 
+    <h2>Haunting </h2> 
+    <p>Artis: Shanna Shannon &amp; Stevan Pasaribu</p> 
+    <div class="video-container"> <iframe width="560" height="315" src="https://youtu.be/MkiO-OKgCA0?si=ItiKAfAgo2facsTs/embed/LAGU_ID_2" frameborder="0" allowfullscreen></iframe> 
+    </div> 
+   </div> 
+   <div class="song"> 
+    <h2>Serana</h2> 
+    <p>Artis: For Revenge</p> 
+    <div class="video-container"> <iframe width="560" height="315" src="https://youtu.be/bGsMkd8qHWI?si=iLpiYDHaw5Avtv-phttps://youtu.be/bGsMkd8qHWI?si=iLpiYDHaw5Avtv-p/embed/LAGU_ID_3" frameborder="0" allowfullscreen></iframe> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>
