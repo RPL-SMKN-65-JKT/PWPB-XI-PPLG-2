@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Family</title>
+  </head>
+  <style>
+    body {
+      background-image: url(../Music/background.jpg);
+    }
+    .keluarga h1 {
+      color: white;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .keluarga img {
+      margin-top: 20px;
+      margin-left: 465px;
+      border-radius: 15px;
+      width: 30%;
+      filter: grayscale(100%);
+    }
+    .keluarga img:hover {
+      filter: grayscale(0);
+    }
+    .music-box {
+      width: 800px;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 10px;
+      padding-bottom: 50px;
+      background-position: auto;
+      border-radius: 15px;
+      box-shadow: white;
+    }
+    .music-box img {
+      width: 50%;
+      margin-left: 260px;
+      margin-top: 40px;
+      border-radius: 15px;
+      box-shadow: 10px 10px 5px 12px rgb(0, 0, 0);
+    }
+    .music-box h2 {
+      margin-left: 100px;
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+      text-shadow: 0 0 10px hsl(61, 62%, 53%);
+      font-family: "Starboy";
+    }
+    .music-box audio {
+      color: black;
+      background-color: black;
+      color-scheme: black;
+      margin-left: 300px;
+      width: 300px;
+      height: 30px;
+    }
+  </style>
+  <body>
+    <div class="keluarga">
+      <h1>Foto Keluarga</h1>
+      <img src="foto.jpg" />
+    </div>
+    <div class="music-box">
+      <img src="starboy.jpeg" alt="" />
+      <h2>The Weeknd : Starboy</h2>
+      <audio controls src="starboy.mp3"></audio>
+    </div>
+  </body>
+</html>

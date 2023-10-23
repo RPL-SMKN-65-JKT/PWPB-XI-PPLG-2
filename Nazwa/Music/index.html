@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Music</title>
+  </head>
+  <style>
+    body {
+      background-image: url(background.jpg);
+    }
+    .music-box {
+      position: relative;
+      width: 800px;
+      margin-left: 250px;
+      margin-right: 200px;
+      margin-top: 10px;
+      padding-bottom: 50px;
+      border-radius: 99999px;
+    }
+    .music-box::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url(cover.jpg);
+      filter: blur(2px);
+      opacity: 0.8;
+      border-radius: 25px;
+    }
+    .music-box h2,
+    img {
+      position: relative;
+    }
+
+    .music-box img {
+      width: 50%;
+      margin-left: 200px;
+      margin-top: 40px;
+      border-radius: 999px;
+      box-shadow: 10px 10px 5px 12px rgba(207, 205, 205, 0.548);
+      transition: all 0.3s;
+      transform: rotate(-5deg);
+    }
+    .music-box img:hover {
+      transform: scale(1.1) rotate(10deg);
+    }
+    .music-box h2 {
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+      text-shadow: 0 0 10px hsl(61, 62%, 53%);
+    }
+    .music-box audio {
+      margin-left: 250px;
+      width: 300px;
+      height: 30px;
+    }
+  </style>
+  <body>
+    <div class="music-box">
+      <img src="foto.jpg" />
+      <h2>Lil Uzi Vert : 20 Min</h2>
+      <audio controls src="Lil Uzi Vert  20 Min.mp3"></audio>
+    </div>
+    <div class="music-box">
+      <img src="foto2.jpg" />
+      <h2>SunKissed Lola : Pasilyo</h2>
+      <audio controls src="pasilyo.mp3"></audio>
+    </div>
+    <div class="music-box">
+      <img src="foto3.jpg" />
+      <h2>Rex Orange County : the Shade</h2>
+      <audio controls src="shade.mp3"></audio>
+    </div>
+  </body>
+</html>
