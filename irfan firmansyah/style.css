@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+    color: #000;;
+}
+
+.foto-keluarga{
+    border: 5px solid black ;
+    border-radius: 4px  ;
+
+    
+} 
+
+.irpanganteng{
+    border: 5px solid black ; 
+    border-radius: 4px ;
+
+}
+
+.judul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.paragraf {
+    text-align: center;
+    font-size: small;
+}
