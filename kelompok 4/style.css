@@ -1,0 +1,67 @@
+
+body {
+  background: #3b3d43;
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5px;
+  padding: 20px;
+  background: #19191c;
+}
+.navbar-logo-icon {
+  height: 40px;
+  border-radius: 50%;
+}
+.navbar ul{
+  display: flex;
+  font-size: 20px;
+  color: aqua;
+  list-style: none; 
+  gap: 534px;  
+}
+
+.music-player{
+background: rgb(70, 204, 92);
+width: 400px;
+height: auto;
+padding-top: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+   margin-left: 40px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+  }
+
+
+.song-img{
+ height: 200px;
+ width: 200px;
+ border: 8px solid #fff;
+ box-shadow: 10px 5px ;
+ 
+}
+.music-player h1 {
+    font-size: 35px;
+    color: #221717;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif   ;
+    text-shadow: 5px 5px white; 
+}
+.music-player p{
+    font-size: 14px;
+    color: #fd0000;
+    font-family: Arial ;
+}
+
