@@ -1,0 +1,35 @@
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.red {
+    background-color: #FF5733;
+}
+
+.green {
+    background-color: #33FF57;
+}
+
+.blue {
+    background-color: #337DFF;
+}
+
+.box:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
