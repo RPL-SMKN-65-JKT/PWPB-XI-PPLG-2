@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+.satu{
+    background-color: burlywood;
+    width: 380px;
+    height: 450px;
+    margin-left: 450px;
+    margin-top: 20px;
+    
+}
+.gambar{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 89px;
+    
+}
+.name{
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-left: 65px;
+}
+.satu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    margin: 10px;
+}
