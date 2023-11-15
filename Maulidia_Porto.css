@@ -1,0 +1,38 @@
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9d9eb; /* Pink muda */
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #e05297; /* Pink tua */
+            padding: 1em;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #e05297; /* Pink tua */
+        }
+
+        a {
+            color: #e05297; /* Pink tua */
+            text-decoration: none;
+        }
+
+        .social-link {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
