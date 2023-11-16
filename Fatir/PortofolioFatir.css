@@ -1,0 +1,66 @@
+/* Ganti dengan gaya dan desain sesuai keinginan Anda */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.profile-img {
+    max-width: 1500%;
+    height: auto;
+    border-radius: 500%;
+    margin-bottom: 200px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
