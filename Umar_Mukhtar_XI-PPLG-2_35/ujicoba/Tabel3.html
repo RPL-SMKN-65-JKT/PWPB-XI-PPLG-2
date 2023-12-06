@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolios</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800 text-gray-500">
+	<header class="z-10 sticky top-0 bg-gray-950 py-5"> <!-- header -->
+		<nav class="w-9/12 flex flex-row mx-auto justify-around">
+			<div class="uppercase text-lg basis-1/4"> <!-- logo -->
+				<a href="#hero">
+					<span class="font-extrabold text-white ">TUgas</span>
+					<span class="font-extralight text-blue-400">POrtofolio</span>
+				</a>
+			</div>
+			<div class="basis-1/2 flex items-center justify-evenly"> <!-- Link -->
+				<a href="#services"><span class="hover:text-slate-200 transition duration-500 py-1 px-1 rounded-sm">Home</span></a>
+			</div>
+		</nav>
+	</header>
+
+
+	<main id="hero" class="relative -top-20"> <!-- Main Content -->
+		<div class="bg-gray-950 "> <!-- Hero Section-->
+			<div class="mx-auto flex h-screen items-center w-9/12 justify-around"> 
+				<div class="basis-1/2"> <!-- deskripsi -->
+					<div class="flex items-center">
+						<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+							<line x1="0" y1="10px" x2="10px" y2="10px"/>
+						</svg>
+						<h2 class="uppercase text-xs font-extralight tracking-widest">
+							Nama gweh
+						</h2>
+					</div>
+					<h3 class="font-bold text-4xl text-white">
+						<span>Umar</span>
+						<span class="text-blue-700">Mukhtar</span>
+					</h3>
+					<p class="font-light">
+						Seorang Pelajar SMK Negeri 65 Jakarta yang berada di jurusan pengembangan perangkat lunak dan gim yang sudah 1 tahun lebih bersekolah dan suka tidur.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, unde, nesciunt labore nulla porro dolorum aliquid possimus eum officia quo repellat dolor molestiae quam nisi et ipsam neque nihil explicabo?
+					</p>
+				</div>  <!-- avatar -->
+				<div class="flex">
+					<img class="rounded-lg w-60 h-auto" src="" alt="foto nya tidak ada">
+				</div>
+			</div>
+		</div>
+		<div id="services" class="bg-slate-50 pt-20 pb-20"> <!-- services -->
+			<div class="w-9/12 mx-auto">
+				<div class="flex flex-col place-items-center"> <!-- judul -->
+					<div>
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-widest">
+								Skills
+							</h2>
+						</div>
+						<h3 class="text-3xl">Language</h3>
+					</div>
+				</div>
+
+				<div class="grid grid-cols-3 gap-10 py-10"> <!-- cards -->
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-12 w-12 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="cpp.jpeg" alt="">
+							</div>
+							<h4 class="text-black mt-5 hover:text-lg duration-150">
+							   C++
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								C++ merupakan bahasa pemograman pertama yang saya pelajari ketika kelas 10 SMK.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-12 w-12 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="html.jpeg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								HTML
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								HTML merupakan bahasa kedua yang saya pelajari di internet saat kelas 10.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="css.jpeg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								CSS
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								CSS saya pelajari melalui internet saat kelas 11.
+							</p>
+						</div>
+					</div>
+                    <div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="sprint.png" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+                                Ultimate lari
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Saya terkadang Lari dari masalah kalau terpaksa
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="bg-white text-center pt-10 pb-10 font-mono -mt-20"> <!-- footer -->
+		2023 Umar Mukhtar. All copy from Rasya Nugraha
+	</footer>
+</body>
+</html>
