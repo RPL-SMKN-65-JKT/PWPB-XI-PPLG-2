@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #363434;
+  font-family: "Poppins";
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navigasi {
+  display: flex;
+  top: 0;
+  margin: auto;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_nav {
+  margin-left: 20px;
+}
+.logo_nav a {
+  display: flex;
+  color: rgb(0, 123, 255);
+}
+.logo_nav span {
+  color: aqua;
+}
+.nav_menu {
+  gap: 60px;
+  display: flex;
+  margin-right: 50px;
+}
+.nav_menu a {
+  color: yellow;
+  font-weight: 600;
+}
+.nav_menu button {
+  width: 130px;
+  height: 40px;
+  background-color: #02254b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: -50px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+.nav_menu button:hover {
+  background-color: transparent;
+  border: rgb(255, 255, 255) 2px solid;
+  color: rgb(255, 255, 255);
+}
+.nav_menu .nav_list {
+  color: #02254b;
+  font-size: 0.875em;
+}
+.nav_menu .list:hover {
+  color: rgb(0, 81, 255);
+}
+.container {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+  gap: 50px;
+  border-radius: 5px;
+}
+.container .kiri img {
+  width: 200px;
+  border-radius: 50%;
+}
