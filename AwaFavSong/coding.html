@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagu Favorit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f48c;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #794906;
+            text-align: center;
+            padding: 1em;
+            color: #fff;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .song {
+            width: 30%;
+            margin: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .song img {
+            width: 100%;
+            height: auto;
+        }
+
+        .song-info {
+            padding: 1em;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lagu Favorit - Nazwa </h1>
+    </header>
+
+    <section>
+        <div class="song">
+            <img src="WhatsApp Image 2024-02-07 at 10.37.44.jpeg" alt="Gambar Lagu 1">
+            <div class="song-info">
+                <h2>Judul Lagu: Bohingi Hati</h2>
+                <p>Artis: Mahalini</p>
+                <audio controls>
+                    <source src="WhatsApp Audio 2024-02-07 at 11.13.47.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="WhatsApp Image 2024-02-07 at 10.38.05.jpeg" alt="Gambar Lagu 2">
+            <div class="song-info">
+                <h2>Judul Lagu: Backburner </h2>
+                <p>Artis: Niki</p>
+                <audio controls>
+                    <source src="BACKBURNER.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="Sisa Rasa.jpeg" alt="Gambar Lagu 3">
+            <div class="song-info">
+                <h2>Judul Lagu: Sisa Rasa</h2>
+                <p>Artis: Mahalini</p>
+                <audio controls>
+                    <source src="Mahalini - Sisa Rasa.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
