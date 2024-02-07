@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Lagu Favorite</title> 
+  <style>
+        body {
+            background-color: #FFC0CB; /* Pink muda */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .lyrics {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1>Lagu Favorit: Sephia</h1> 
+   <p>Nama Penyanyi: Sheila On 7</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/I-49WVkNNL0?si=FeP9DGyVwX8CzmIx?controls=0&amp;autoplay=1&amp;rel=0" title="YouTube Player Created By Video Embed Code Generator" frameborder="0" allowfullscreen></iframe> 
+   <div class="lyrics"> 
+    <p>Lirik lagu:</p> 
+    <p>Slamat tidur kekasih gelapku oh Sephia… Smoga cepat kau lupakan aku Kekasih sejatimu takkan pernah sanggup untuk melupakanmu Slamat tinggal kasih tak terungkap oh Sephia… Smoga kau lupakan aku cepat Kekasih sejatimu takkan pernah sanggup untuk meninggalkanmu Hey, Sephia Jangan pernah panggil namaku Bila kita bertemu lagi di lain hari Hadapilah ini Kisah kita takkan abadi</p> 
+    <h2>Lagu Favorit: Dewi</h2> 
+    <p>Nama Penyanyi: Dewa 19</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/YyfmajcIZtM?si=w81KibGA-p6osXyG?controls=0&amp;autoplay=1&amp;rel=0" title="YouTube Player Created By Video Embed Code Generator" frameborder="0" allowfullscreen></iframe> 
+    <div class="lyrics"> 
+     <p>Lirik lagu:</p> 
+     <p>dewi aku mohon beri kesempatan tuk bisa menebus dosaku kepadamu maafkanlah aku yg menyakitimu aku tidak pernah menyangka bisa begini oh dewi, dengarkanlah dewi, kaulah hidupku aku cinta padamu sampai mati dewi, belahlah dadaku agar kau tahu, agar kau mengerti semua terjadi begitu saja tak ada yg serius antara dia dan aku tidak ada cinta dan tidak ada hati hanya karena aku lelaki dan dia wanita oh dewi, dengarkanlah</p> 
+     <h3>Lagu Favorit: Yang Ku Tau Cinta Itu Indah</h3> 
+     <p>Nama Penyanyi: Afgan feat Nagita</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/TzGYi_m70Hc?si=Rmpsm6i6yRWIC3l-?controls=0&amp;autoplay=1&amp;rel=0" title="YouTube Player Created By Video Embed Code Generator" frameborder="0" allowfullscreen></iframe> 
+     <div class="lyrics"> 
+      <p>Lirik lagu:</p> 
+      <p>Tak pernah aku membayangkannya Bila insan sedang patah hati Kali ini kurasakan sesungguhnya Siang hariku bagaikan malam Pelangi pun berwarnakan gelap Inikah yang dinamakan patah hati? Tak ingin kujalani Cinta yang begini Yang kutahu, cinta itu indah Tak ingin kurasakan Jiwa yang tak tenang Ku mau kau tetap di sisiku Siang hariku bagaikan malam Pelangi pun berwarnakan gelap Inikah yang dinamakan patah hati? Tak ingin kujalani Cinta yang begini Yang kutahu, cinta itu indah Tak ingin kurasakan Jiwa yang tak tenang Ku mau kau tetap di sisiku Dan tak ingin (tak ingin) kurasakan (kurasakan) Jiwa yang tak tenang (tak tenang) Ku mau kau tetap di sisiku, oh Oh-uh-uh Siang hariku bagaikan malam Pelangi pun berwarnakan gelap</p> 
+     </div> 
+    </div> 
+   </div>
+  </div>
+ </body>
+</html>
