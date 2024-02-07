@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagu Favorit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4aeaf2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3d6eeb;
+            text-align: center;
+            padding: 1em;
+            color: #fff;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .song {
+            width: 30%;
+            margin: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .song img {
+            width: 100%;
+            height: auto;
+        }
+
+        .song-info {
+            padding: 1em;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lagu Favorit - Fajar </h1>
+    </header>
+
+    <section>
+        <div class="song">
+            <img src="WhatsApp Image 2024-02-07 at 10.08.45.jpeg" alt="Gambar Lagu 1">
+            <div class="song-info">
+                <h2>Judul Lagu: Green Flash </h2>
+                <p>Artis: JKT48</p>
+                <audio controls>
+                    <source src="Green.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="WhatsApp Image 2024-02-07 at 10.09.48.jpeg" alt="Gambar Lagu 2">
+            <div class="song-info">
+                <h2>Judul Lagu: Nilailah Aku </h2>
+                <p>Artis: Kangen Band</p>
+                <audio controls>
+                    <source src="ilahi.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="WhatsApp Image 2024-02-07 at 10.11.05.jpeg" alt="Gambar Lagu 3">
+            <div class="song-info">
+                <h2>Judul Lagu: Birth </h2>
+                <p>Artis: JKT48</p>
+                <audio controls>
+                    <source src="sjsb.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
