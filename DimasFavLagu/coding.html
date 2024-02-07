@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagu Favorit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b5e0f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0033bf;
+            text-align: center;
+            padding: 1em;
+            color: #fff;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .song {
+            width: 30%;
+            margin: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .song img {
+            width: 100%;
+            height: auto;
+        }
+
+        .song-info {
+            padding: 1em;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lagu Favorit - Dimas </h1>
+    </header>
+
+    <section>
+        <div class="song">
+            <img src="Komang.jpeg" alt="Gambar Lagu 1">
+            <div class="song-info">
+                <h2>Judul Lagu: Komang</h2>
+                <p>Artis: Raim Lode</p>
+                <audio controls>
+                    <source src="Komang - Raim Laode ( Official Lirik ).mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="Jiwa Yang Bersedih.jpeg" alt="Gambar Lagu 2">
+            <div class="song-info">
+                <h2>Judul Lagu: Jiwa Yang Bersedih </h2>
+                <p>Artis: Ghea Indrawari</p>
+                <audio controls>
+                    <source src="GHEA INDRAWARI - JIWA YANG BERSEDIH (OFFICIAL MUSIC VIDEO).mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+
+        <div class="song">
+            <img src="When I Was Your Man - Bruno Mars.jpeg" alt="Gambar Lagu 3">
+            <div class="song-info">
+                <h2>Judul Lagu: When I Was Your Man</h2>
+                <p>Artis: Bruno Mars</p>
+                <audio controls>
+                    <source src="When I Was Your Man.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
