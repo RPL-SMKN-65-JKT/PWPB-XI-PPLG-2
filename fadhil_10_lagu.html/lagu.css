@@ -4,6 +4,9 @@ h1 {
     width: 350px;
     height: 50px;
     border-radius: 25px;
+    text-align: center;
+    position: absolute;
+    left: 38%;
 }
 body {
     background-color: yellow;
@@ -13,17 +16,67 @@ body {
     height: 300px;
     border-radius: 25px;
 }
+
+
 .gamlag1 {
     position: absolute;
     left: 40%;
+    top: 15vh;
 }
+.lagu1 {
+    position: absolute;
+    left: 44%;
+    top: 25vh;
+}
+
+
 .gamlag2 {
     position: absolute;
     left: 40%;
-    top: 75vh;
+    top: 15vh;
 }
+.lagu2 {
+    position: absolute;
+    left: 44%;
+    top: 35vh;
+}
+
+
 .gamlag3 {
     position: absolute;
     left: 40%;
-    top: 135vh;
+    top: 15vh;
+}
+.lagu3 {
+    position: absolute;
+    left: 44%;
+    top: 45vh;
+}
+
+.gamlag4 {
+    position: absolute;
+    left: 40%;
+    top: 15vh;
+}
+.lagu4 {
+    position: absolute;
+    left: 44%;
+    top: 55vh;
+}
+
+.gamlag5 {
+    position: absolute;
+    left: 40%;
+    top: 15vh;
+}
+.lagu5 {
+    position: absolute;
+    left: 44%;
+    top: 65vh;
+}
+
+.back {
+    position: absolute;
+    left: 38%;
+    top: 65vh;
 }
