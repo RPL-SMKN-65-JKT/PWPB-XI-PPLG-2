@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyewaan Mobil</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo65.png" alt="Logo Penyewaan Mobil">
+        </div>
+        <h1>Selamat Datang di Layanan Penyewaan Mobil</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#cars">Mobil</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami menyediakan berbagai jenis mobil untuk disewa dengan harga terjangkau.</p>
+        </section>
+        <section id="cars">
+            <h2>Mobil Kami</h2>
+            <div class="car">
+                <img src="WhatsApp Image 2024-06-12 at 07.32.11.jpeg" alt="Car 1">
+                <h3>Mobil A</h3>
+                <p>Bugati Divo</p>
+                <p>Rp. 110.000.000/Hari</p>
+                <button onclick="rentCar('Mobil A')">Sewa Mobil</button>
+            </div>
+            <div class="car">
+                <img src="mobil2.jpeg" alt="Car 2">
+                <h3>Mobil B</h3>
+                <p>Bburago Ferrari 812</p>
+                <p>Rp. 120.000.000/Hari</p>
+                <button onclick="rentCar('Mobil B')">Sewa Mobil</button>
+            </div>
+            <div class="car">
+                <img src="mobil3.jpeg" alt="Car 3">
+                <h3>Mobil C</h3>
+                <p>Lamborghini Aventador</p>
+                <p>Rp. 100.000.000/Hari</p>
+                <button onclick="rentCar('Mobil C')">Sewa Mobil</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Penyewaan Mobil. All rights reserved.</p>
+    </footer>
+    <script src="javascript.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+</html>
